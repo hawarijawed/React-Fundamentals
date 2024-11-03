@@ -24,9 +24,9 @@ function App() {
     <>
       <h1>Counter Tutorial</h1>
       <p>Counter value: {count}</p>
-      <button onClick={addValue}>Add value</button>
+      <button onClick={addValue} style={{background:'blue', margin:'10px', width:'50%'}}>Add value</button>
       <br />
-      <button onClick={removeValue} >Remove value</button>
+      <button onClick={removeValue} style={{background:'blue', margin:'10px', width:'50%'}}>Remove value</button>
     </>
   );
 }
